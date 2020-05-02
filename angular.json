@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "investments": {
@@ -121,8 +121,16 @@
               "devServerTarget": "investments:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "investments"
+    }
+  },
+  "defaultProject": "investments",
+  "cli": {
+    "analytics": "31a2bca5-f5c6-471f-8c87-7f8c37f92d72"
+  }
 }

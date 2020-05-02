@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "demodigi-7f83e": {
+      "hosting": {
+        "investments": [
+          "demodigi-7f83e"
+        ]
+      }
+    }
+  }
+}

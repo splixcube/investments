@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "investments",
+      "public": "dist/investments",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
